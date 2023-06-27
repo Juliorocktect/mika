@@ -3,7 +3,6 @@
 - while
 - if
 - boolschen operatoren
-![IMG_2227](https://github.com/Juliorocktect/mika/assets/113830349/2ef6590b-4dc1-4133-93ce-8a2422ead6e5)
 ![IMG_2226](https://github.com/Juliorocktect/mika/assets/113830349/7beaba87-028b-4bd7-82af-74eced8f9f4a)
 - switch case
 ## Arrays
