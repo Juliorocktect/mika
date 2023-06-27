@@ -1,4 +1,4 @@
-# Informatik Unterrich
+# Informatik Unterricht
 ## Kontrollstrukturen
 - while
 - if
@@ -20,6 +20,7 @@
 ### Objekte
 - Methoden einer Klasse sind anwendbar auf das Objekt dieser Klasse
 - Daten werden gekappselt (durch get und set methoden)
+![IMG_2225](https://github.com/Juliorocktect/mika/assets/113830349/263c3fa4-29ce-4524-bf98-e5e455c47584)
 - Abstrakter Datentyp
 - Atribute (Variablen die Einem Objekt zugeordnet werden können)
 ### Abhängigkeiten von Klassen
