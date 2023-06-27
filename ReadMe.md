@@ -2,6 +2,7 @@
 ## Kontrollstrukturen
 - while
 - if
+- boolschen operatoren
 - switch case
 ## Arrays
 - für LK
@@ -15,7 +16,7 @@
 - main => Argumente
 - Konstruktor, Destruktor (GC)
 - Signatur 
-- Parameter
+- Parameter, Nullptr
 - Rückgabetypen (typ & void)
 ### Objekte
 - Methoden einer Klasse sind anwendbar auf das Objekt dieser Klasse
