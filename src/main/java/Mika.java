@@ -1,15 +1,41 @@
-public class Mika { // eine Klasse
-
-    private int age;
-    // private heißt dass, dass nur innerhalb dieser Klasse auf diesen wert zugegriffen werden,
-    // kann ohne Schnittstelle
+public class Mika {
     private String name;
-    public Mika(){} //ein Konstruktor setzt die Attribute eines Objektes einem Wert
+    private int money;
 
+    public Mika(String name){
+        this.name = name;
+        this.money = 100;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
     public String getName(){return name;}
-    //get Methode
-    // die Schnittstelle
-    private void setName(String name){this.name = name;}
-    // void heißt, dass die Methode keinen Rückgabewert hat
-    //mit this wird auf das Aktuelle Objekt der Klasse gezeigt
+
+    //trinken
+    public int lengthOfName()
+    {
+        int length;
+        length = name.length();
+        return length;
+    }
+    public void trinken()
+    {
+      if (isMoneyBiggerThanZeroAndSmallerThen100(money)){
+          money = 0;
+      }
+      else{
+          this.money--;
+      }
+    }
+    public int getMoney(){
+        return money;
+    }
+
+    public boolean isMoneyBiggerThanZeroAndSmallerThen100(int number){
+        if (number > 0 && number < 100){
+            return true;
+        }
+        return false;
+    }
 }
