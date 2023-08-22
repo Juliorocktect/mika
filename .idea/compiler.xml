@@ -9,5 +9,8 @@
         <module name="mika" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mika" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
